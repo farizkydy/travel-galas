@@ -3,7 +3,7 @@
 //  galas
 //
 //  Created by Fariz Rizky Rizaldy on 31/03/22.
-//
+// hai
 
 import UIKit
 
