@@ -1,13 +1,13 @@
 //
-//  DetailListViewController.swift
+//  SelectActivitiesViewController.swift
 //  galas
 //
-//  Created by Fariz Rizky Rizaldy on 04/04/22.
+//  Created by Renzo Alvaroshan on 04/04/22.
 //
 
 import UIKit
 
-class DetailListViewController: UIViewController {
+class SelectActivitiesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
