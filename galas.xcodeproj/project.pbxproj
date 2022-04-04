@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830EE14427FAF223000C35E8 /* SelectActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EE14327FAF223000C35E8 /* SelectActivitiesViewController.swift */; };
+		830EE14727FAF24F000C35E8 /* SelectActivities.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830EE14627FAF24F000C35E8 /* SelectActivities.storyboard */; };
 		C66C80D327F54F0B002A171F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C80D227F54F0B002A171F /* AppDelegate.swift */; };
 		C66C80D527F54F0B002A171F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C80D427F54F0B002A171F /* SceneDelegate.swift */; };
 		C66C80D727F54F0B002A171F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C80D627F54F0B002A171F /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		830EE14327FAF223000C35E8 /* SelectActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivitiesViewController.swift; sourceTree = "<group>"; };
+		830EE14627FAF24F000C35E8 /* SelectActivities.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectActivities.storyboard; sourceTree = "<group>"; };
 		C66C80CF27F54F0B002A171F /* galas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = galas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66C80D227F54F0B002A171F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C66C80D427F54F0B002A171F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		830EE14527FAF22B000C35E8 /* Select Activities */ = {
+			isa = PBXGroup;
+			children = (
+				830EE14327FAF223000C35E8 /* SelectActivitiesViewController.swift */,
+				830EE14627FAF24F000C35E8 /* SelectActivities.storyboard */,
+			);
+			path = "Select Activities";
+			sourceTree = "<group>";
+		};
 		C66C80C627F54F0B002A171F = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +75,7 @@
 		C66C80D127F54F0B002A171F /* galas */ = {
 			isa = PBXGroup;
 			children = (
+				830EE14527FAF22B000C35E8 /* Select Activities */,
 				C6F9D1AA27FAA24900AABCA8 /* system */,
 				C6F9D1A927FAA23F00AABCA8 /* component */,
 				C66C80D227F54F0B002A171F /* AppDelegate.swift */,
@@ -190,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830EE14727FAF24F000C35E8 /* SelectActivities.storyboard in Resources */,
 				C66C80DF27F54F0C002A171F /* LaunchScreen.storyboard in Resources */,
 				C66C80DC27F54F0C002A171F /* Assets.xcassets in Resources */,
 				C6F9D1C127FAAA8600AABCA8 /* DetailListStoryboard.storyboard in Resources */,
@@ -209,6 +224,7 @@
 				C66C80D327F54F0B002A171F /* AppDelegate.swift in Sources */,
 				C66C80D527F54F0B002A171F /* SceneDelegate.swift in Sources */,
 				C6F9D1BF27FAAA7A00AABCA8 /* DetailListViewController.swift in Sources */,
+				830EE14427FAF223000C35E8 /* SelectActivitiesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
