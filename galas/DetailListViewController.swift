@@ -26,4 +26,6 @@ class DetailListViewController: UIViewController {
     }
     */
 
+    // develop fariz -> kerja dulu -> commit push ke branch develop-fariz -> PR ke main -> (kalo ada konflik rebase dulu dari) -> merged di main -> local di main dipull -> branch develop fariz
+
 }
