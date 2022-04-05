@@ -18,6 +18,11 @@
 		C66C80DA27F54F0B002A171F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66C80D827F54F0B002A171F /* Main.storyboard */; };
 		C66C80DC27F54F0C002A171F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66C80DB27F54F0C002A171F /* Assets.xcassets */; };
 		C66C80DF27F54F0C002A171F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66C80DD27F54F0C002A171F /* LaunchScreen.storyboard */; };
+		C6F9D1B027FAA27A00AABCA8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9D1AF27FAA27A00AABCA8 /* File.swift */; };
+		C6F9D1BF27FAAA7A00AABCA8 /* DetailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9D1BE27FAAA7A00AABCA8 /* DetailListViewController.swift */; };
+		C6F9D1C127FAAA8600AABCA8 /* DetailListStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F9D1C027FAAA8600AABCA8 /* DetailListStoryboard.storyboard */; };
+		D72FC91427FB337B003A24FB /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72FC91327FB337B003A24FB /* DashboardController.swift */; };
+		D72FC91627FB33AC003A24FB /* DashboardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72FC91527FB33AC003A24FB /* DashboardStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		C66C80DB27F54F0C002A171F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C66C80DE27F54F0C002A171F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C66C80E027F54F0C002A171F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F9D1AF27FAA27A00AABCA8 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C6F9D1BE27FAAA7A00AABCA8 /* DetailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListViewController.swift; sourceTree = "<group>"; };
+		C6F9D1C027FAAA8600AABCA8 /* DetailListStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailListStoryboard.storyboard; sourceTree = "<group>"; };
+		D72FC91327FB337B003A24FB /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		D72FC91527FB33AC003A24FB /* DashboardStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashboardStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,8 @@
 				C6F9D1AA27FAA24900AABCA8 /* system */,
 				C6F9D1A927FAA23F00AABCA8 /* component */,
 				C66C80D227F54F0B002A171F /* AppDelegate.swift */,
+				D72FC91327FB337B003A24FB /* DashboardController.swift */,
+				D72FC91527FB33AC003A24FB /* DashboardStoryboard.storyboard */,
 				C66C80D427F54F0B002A171F /* SceneDelegate.swift */,
 				C66C80D627F54F0B002A171F /* ViewController.swift */,
 				C66C80D827F54F0B002A171F /* Main.storyboard */,
@@ -204,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72FC91627FB33AC003A24FB /* DashboardStoryboard.storyboard in Resources */,
 				C66C80DF27F54F0C002A171F /* LaunchScreen.storyboard in Resources */,
 				C65D83EC27FC0AD1001F50B2 /* SelectActivities in Resources */,
 				C66C80DC27F54F0C002A171F /* Assets.xcassets in Resources */,
@@ -225,6 +238,9 @@
 				C66C80D727F54F0B002A171F /* ViewController.swift in Sources */,
 				C66C80D327F54F0B002A171F /* AppDelegate.swift in Sources */,
 				C66C80D527F54F0B002A171F /* SceneDelegate.swift in Sources */,
+				D72FC91427FB337B003A24FB /* DashboardController.swift in Sources */,
+				C6F9D1BF27FAAA7A00AABCA8 /* DetailListViewController.swift in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
