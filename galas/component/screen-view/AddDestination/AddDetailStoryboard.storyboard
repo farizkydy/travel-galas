@@ -16,12 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type Your Destination Place" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0qm-GR-znl">
-                                <rect key="frame" x="20" y="143.5" width="374" height="34"/>
-                                <color key="backgroundColor" systemColor="placeholderTextColor"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="New Trip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4w-kO-c2M">
                                 <rect key="frame" x="20" y="74" width="202" height="44.5"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
@@ -111,9 +105,7 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="lae-BY-zJM" firstAttribute="top" secondItem="0qm-GR-znl" secondAttribute="bottom" constant="35" id="1DR-Iz-hmo"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="lae-BY-zJM" secondAttribute="trailing" constant="192" id="2li-ks-OWh"/>
-                            <constraint firstItem="0qm-GR-znl" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="5rI-s4-xtL"/>
                             <constraint firstItem="jWh-LY-YAj" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="721-ed-p9d"/>
                             <constraint firstItem="mAf-0v-sWX" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="CWe-rv-Vlr"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jWh-LY-YAj" secondAttribute="trailing" constant="20" id="DBl-e4-57X"/>
@@ -122,12 +114,9 @@
                             <constraint firstItem="mAf-0v-sWX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="LgU-J4-5tF"/>
                             <constraint firstItem="mAf-0v-sWX" firstAttribute="top" secondItem="jWh-LY-YAj" secondAttribute="bottom" constant="322" id="OPw-vB-gNY"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="jWh-LY-YAj" secondAttribute="bottom" constant="173" id="SP7-hD-YnL"/>
-                            <constraint firstItem="0qm-GR-znl" firstAttribute="top" secondItem="q4w-kO-c2M" secondAttribute="bottom" constant="25" id="Tv0-7C-ReG"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jWh-LY-YAj" secondAttribute="trailing" constant="20" id="dkE-sC-2mi"/>
                             <constraint firstItem="lae-BY-zJM" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="hNM-zf-q6F"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="0qm-GR-znl" secondAttribute="trailing" constant="20" id="hUC-hr-z2B"/>
                             <constraint firstItem="jWh-LY-YAj" firstAttribute="top" secondItem="lae-BY-zJM" secondAttribute="bottom" constant="35" id="nkl-k3-wby"/>
-                            <constraint firstItem="lae-BY-zJM" firstAttribute="top" secondItem="0qm-GR-znl" secondAttribute="bottom" constant="25" id="pKC-D3-Zg1"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="jWh-LY-YAj" secondAttribute="bottom" constant="170" id="rel-1H-Za5"/>
                             <constraint firstItem="jWh-LY-YAj" firstAttribute="top" secondItem="lae-BY-zJM" secondAttribute="bottom" constant="45" id="sxh-yq-hn2"/>
                             <constraint firstItem="mAf-0v-sWX" firstAttribute="top" secondItem="jWh-LY-YAj" secondAttribute="bottom" constant="40" id="tW0-1z-Tdg"/>
@@ -142,9 +131,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="placeholderTextColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
