@@ -2,7 +2,7 @@
 //  AddDestinationViewController.swift
 //  galas
 //
-Ceated by Fariz Rizky Rizaldy on 04/04/22.
+//Ceated by Fariz Rizky Rizaldy on 04/04/22.
 //
 
 import UIKit
