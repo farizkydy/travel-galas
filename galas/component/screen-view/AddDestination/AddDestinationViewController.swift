@@ -1,13 +1,13 @@
 //
-//  DetailListViewController.swift
+//  AddDestinationViewController.swift
 //  galas
 //
-//  Created by Samuel Dennis on 04/04/22.
+//  Created by Fariz Rizky Rizaldy on 05/04/22.
 //
 
 import UIKit
 
-class DetailListViewController: UIViewController {
+class AddDestinationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,5 @@ class DetailListViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-    // develop fariz -> kerja dulu -> commit push ke branch develop-fariz -> PR ke main -> (kalo ada konflik rebase dulu dari) -> merged di main -> local di main dipull -> branch develop fariz
 
 }
