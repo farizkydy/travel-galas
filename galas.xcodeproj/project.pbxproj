@@ -11,6 +11,7 @@
 		3FA9B15D27FAF2AE00E65CF1 /* DetailListStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9B15C27FAF2AE00E65CF1 /* DetailListStoryboard.storyboard */; };
 		C62B602C27FB6F12000301D8 /* AddDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62B602B27FB6F12000301D8 /* AddDestinationViewController.swift */; };
 		C62B603027FBEA46000301D8 /* AddDetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62B602F27FBEA45000301D8 /* AddDetailStoryboard.storyboard */; };
+		C65D83EC27FC0AD1001F50B2 /* SelectActivities in Resources */ = {isa = PBXBuildFile; fileRef = C65D83EB27FC0AD1001F50B2 /* SelectActivities */; };
 		C66C80D327F54F0B002A171F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C80D227F54F0B002A171F /* AppDelegate.swift */; };
 		C66C80D527F54F0B002A171F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C80D427F54F0B002A171F /* SceneDelegate.swift */; };
 		C66C80D727F54F0B002A171F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C80D627F54F0B002A171F /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		3FA9B15C27FAF2AE00E65CF1 /* DetailListStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = DetailListStoryboard.storyboard; path = ../../../DetailListStoryboard.storyboard; sourceTree = "<group>"; };
 		C62B602B27FB6F12000301D8 /* AddDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDestinationViewController.swift; sourceTree = "<group>"; };
 		C62B602F27FBEA45000301D8 /* AddDetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddDetailStoryboard.storyboard; sourceTree = "<group>"; };
+		C65D83EB27FC0AD1001F50B2 /* SelectActivities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SelectActivities; sourceTree = "<group>"; };
 		C66C80CF27F54F0B002A171F /* galas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = galas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66C80D227F54F0B002A171F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C66C80D427F54F0B002A171F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		C6F9D1AE27FAA26500AABCA8 /* screen-view */ = {
 			isa = PBXGroup;
 			children = (
+				C65D83EB27FC0AD1001F50B2 /* SelectActivities */,
 				C62B602827FB6E61000301D8 /* AddDestination */,
 				C6F9D1BD27FAAA6500AABCA8 /* DetailList */,
 			);
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C66C80DF27F54F0C002A171F /* LaunchScreen.storyboard in Resources */,
+				C65D83EC27FC0AD1001F50B2 /* SelectActivities in Resources */,
 				C66C80DC27F54F0C002A171F /* Assets.xcassets in Resources */,
 				C66C80DA27F54F0B002A171F /* Main.storyboard in Resources */,
 				C62B603027FBEA46000301D8 /* AddDetailStoryboard.storyboard in Resources */,
